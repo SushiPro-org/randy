@@ -58,7 +58,7 @@ const Home: NextPage = () => {
 
     // Make sure the user is on the correct network (same network as your NFT Drop is).
     if (isOnWrongNetwork) {
-      switchNetwork && switchNetwork(137);
+      switchNetwork && switchNetwork(4);
       return;
     }
 
