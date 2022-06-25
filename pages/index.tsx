@@ -22,7 +22,7 @@ import {
 } from "@chakra-ui/react";
 
 // Put Your NFT Drop Contract address from the dashboard here
-const myNftDropContractAddress = "0xaf2BdFe4076DFB3fBA171037fA0083460bE4b126";
+const myNftDropContractAddress = "0x51accE4488Ff6a962F0307693733e8fAB9Da9FEC";
 
 const Home: NextPage = () => {
   const nftDrop = useNFTDrop(myNftDropContractAddress);
